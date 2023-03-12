@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace studentAffairsAutomation
 {
-    public partial class mainScreen : Form
+    public partial class studentProceduresScreen : Form
     {
-        public mainScreen()
+        public studentProceduresScreen()
         {
             InitializeComponent();
         }
 
         private void closeButton_Click(object sender, EventArgs e)
         {
-            ActiveForm.Close();
-        }
-
-        private void mainScreen_Load(object sender, EventArgs e)
-        {
-            MessageBox.Show("Welcome. Enter your username and password to enter automation.");
+            Application.Exit();
         }
     }
 }

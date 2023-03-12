@@ -46,16 +46,73 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="classProceduresScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="classProceduresScreen.Designer.cs">
+      <DependentUpon>classProceduresScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="departmentProceduresScreen .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="departmentProceduresScreen .Designer.cs">
+      <DependentUpon>departmentProceduresScreen .cs</DependentUpon>
+    </Compile>
+    <Compile Include="lessonTimeProceduresScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lessonTimeProceduresScreen.Designer.cs">
+      <DependentUpon>lessonTimeProceduresScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lessonProceduresScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lessonProceduresScreen.Designer.cs">
+      <DependentUpon>lessonProceduresScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentProceduresScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studentProceduresScreen.Designer.cs">
+      <DependentUpon>studentProceduresScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teacherProceduresScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teacherProceduresScreen.Designer.cs">
+      <DependentUpon>teacherProceduresScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginScreen.Designer.cs">
+      <DependentUpon>loginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainScreen.Designer.cs">
+      <DependentUpon>mainScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="classProceduresScreen.resx">
+      <DependentUpon>classProceduresScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="departmentProceduresScreen .resx">
+      <DependentUpon>departmentProceduresScreen .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lessonTimeProceduresScreen.resx">
+      <DependentUpon>lessonTimeProceduresScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lessonProceduresScreen.resx">
+      <DependentUpon>lessonProceduresScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginScreen.resx">
+      <DependentUpon>loginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainScreen.resx">
+      <DependentUpon>mainScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +123,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="studentProceduresScreen.resx">
+      <DependentUpon>studentProceduresScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="teacherProceduresScreen.resx">
+      <DependentUpon>teacherProceduresScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
